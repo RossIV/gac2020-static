@@ -2906,7 +2906,7 @@ a.thumbnail:hover .zoom-icon,
     }
     .block_1 {
         background: url(./images/bg_cont.jpg) 0 0 repeat;
-        padding: 22px 15px 13px;
+        padding: 22px 250px 13px;
         margin-bottom: 30px
     }
     .box_1,
@@ -2937,6 +2937,10 @@ a.thumbnail:hover .zoom-icon,
 }
 
 @media(max-width:480px) {
+    .block_1 {
+        padding: 22px 525px 13px;
+        margin-bottom: 30px
+    }
     .block_4 img {
         width: 90%
     }
